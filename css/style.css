@@ -66,7 +66,7 @@ section {
   font-family: 'KaushanScript';
   font-size: 8rem;
   margin-top: -4rem;
-  color: var(--black);
+  color: var(--white);
 }
 
 .heading .sub-menu {
@@ -74,7 +74,7 @@ section {
   font-family: 'Bebas-Neue-Pro-Bold';
   text-transform: uppercase;
   font-size: 6.8rem;
-  color: var(--palet-1);
+  color: var(--palet-2);
 }
 
 p {
@@ -339,10 +339,73 @@ home-img {
 /*========== MENU ==========*/
 /*========== MENU ==========*/
 
-.menu {
-  background: var(--white) url(../images/vectores/patron-1.svg) repeat;
+#menu {
+  background: var(--white) url(../images/mesa-back-1.jpg) repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
+#menu-1 {
+  background: var(--white) url(../images/mesa-back-2.jpg) repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
+#menu-2 {
+  background: var(--white) url(../images/mesa-back-3.jpg) repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
+#menu-3 {
+  background: var(--white) url(../images/mesa-back-4.jpg) repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
+#menu-4 {
+  background: var(--white) url(../images/mesa-back-5.jpg) repeat;
   background-size: contain;
   background-position: center;
+  padding: 2rem 9% !important;
+}
+
+#menu-5 {
+  background: var(--white) url(../images/mesa-back-6.jpg) repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
+#menu-6 {
+  background: var(--white) url(../images/mesa-back-7.jpg) repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
+#menu-7 {
+  background: var(--white) url(../images/mesa-back-8.jpg) repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
+#menu-8 {
+  background: var(--white) url(../images/mesa-back-9.jpg) repeat;
+  background-size: cover;
+  background-position: left;
+  padding: 2rem 9% !important;
+}
+
+#menu-9 {
+  background: var(--white) url(../images/mesa-back-9.jpg) repeat;
+  background-size: cover;
+  background-position: right;
   padding: 2rem 9% !important;
 }
 
@@ -359,16 +422,17 @@ home-img {
 .menu__content {
   /* position: relative; */
   display: flex;
+  margin-top: -7rem;
   opacity: 1 !important;
   flex-direction: column;
-  background: url(../images/vectores/logo-footer.svg) no-repeat, linear-gradient(45deg, rgba(218, 12, 49, 1) 0%, rgba(250, 180, 22, 1) 100%) !important;
+  /* background: url(../images/vectores/logo-footer.svg) no-repeat, linear-gradient(45deg, rgba(218, 12, 49, 1) 0%, rgba(250, 180, 22, 1) 100%) !important; */
   background-size: cover !important;
   background-position-y: center !important;
   background-position-x: center !important;
   border-radius: 2rem;
-  -webkit-box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.9);
+  /* -webkit-box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.9);
   -moz-box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.9);
-  box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.9);
+  box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.9); */
   /* padding: .75rem; */
 }
 
@@ -491,7 +555,7 @@ home-img {
   text-align: center;
   padding: 1.5rem;
   padding-top: 2rem;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   opacity: 1;
   -webkit-transform: scale3d(0.8, 0.8, 1);
   transform: scale3d(0.8, 0.8, 1);
@@ -1522,6 +1586,37 @@ input.whats-input[type=text]:focus {
 }
 
 @media (max-width: 450px) {
+  #menu {
+    background-position: -10rem;
+  }
+  #menu-1 {
+    background-position: -5rem;
+  }
+  #menu-2 {
+    background-position: -5rem;
+  }
+  #menu-3 {
+    background-position: -5rem;
+  }
+  #menu-4 {
+    background-size: cover;
+    background-position: right;
+  }
+  #menu-5 {
+    background-position: right;
+  }
+  #menu-6 {
+    background-position: left;
+  }
+  #menu-7 {
+    background-position: -10rem;
+  }
+  #menu-8 {
+    background-position: left;
+  }
+  #menu-9 {
+    background-position: -30rem;
+  }
   html {
     font-size: 50%;
   }
